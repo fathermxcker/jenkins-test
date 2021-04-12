@@ -16,6 +16,7 @@ pipeline {
             steps {
                 sh '''
                 echo "test-again"
+                cat README.md
                 '''
             }
         }
